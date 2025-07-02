@@ -1,0 +1,318 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+/* Top bar style */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.logo_imag {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+.logo_imag a{
+    text-decoration: none;
+}
+/* heading style */
+.logo_imag h1{
+    font-size: 20px;
+    cursor: pointer;
+}
+.Kpa{
+   margin-top: -10px;
+   color: #2e3192;
+   font-weight: 700;
+}
+.kPa{
+  color: #ec1e25;
+  font-weight: 700;
+}
+.kpA{
+color: #000;
+font-weight: 700;
+}
+.logo_imag img {
+  height: 50px;
+  width: 50px;
+}
+
+/* nav bar */
+nav{
+    margin-right: -10%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+nav ul li a:hover{
+    background-color: #c6c3dd;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 28px 30px;
+    border-bottom: 5px solid red;
+    transition-duration: .5s;
+}
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  padding: 20px 30px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+
+/* Submenu styles */
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li:hover ul {
+  display: flex;
+  margin-top: 24px;
+  border-radius: 10px;
+}
+
+/* Submenu links */
+nav ul li ul li a {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 14px;
+  color: #000;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect on submenu items */
+nav ul li ul li a:hover {
+  background-color: #c6c3dd;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: none;
+  border-left: 5px solid red;
+}
+/* Log in button */
+.login_btn a {
+  background-color: #2d39bb;
+  color: white;
+  font-size: 14px;
+  margin-right: 20px;
+  padding: 13px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login_btn a:hover{
+    padding: 15px 20px;
+    transition-duration: .5s;
+    background-color: #2c3494;
+}
+
+/* home page body 1 */
+.background_img_1{
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+.background_img_1 img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.tagline_1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+.tagline_1 h1{
+      color: #103daf;
+      margin-bottom: 20px;
+      font-weight: 600;
+
+}
+.tagline_1 h4{
+    color: black;
+    margin-bottom: 20px;
+}
+.Courses{
+    text-decoration: none;
+    font-size: 14px;
+    text-shadow: none;
+    background-color: #ec1e25;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+.Courses:hover{
+    border: 2px solid #ec1e25;
+    color: #162199;
+    background-color: transparent;
+    transition-duration: .5s;
+}
+.Start{
+    text-decoration: none;
+    font-size: 14px;
+    text-shadow: none;
+    border: 2px solid #ec1e25;
+    padding: 15px;
+    color: #162199;
+    border-radius: 10px;
+}
+.Start:hover{
+    background-color: #ec1e25;
+    color: white;
+    border: none;
+    transition-duration: .5s;
+}
+/* text div after Image */
+.number_of{
+  cursor: pointer;
+    height: 180px;
+    display: flex;
+    width: 80%;
+    background-color: #c7ecee;
+    margin: auto;
+    padding: 20px;
+   margin-top: -50px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+   position: relative;
+   z-index: 9999;
+}
+.students_number{
+    padding: 4%;
+    margin-left: 20%;
+}
+.students_number h3{
+  font-size: 30px;
+  font-weight: 600;
+  color: #2e328f;
+}
+.students_number h5{
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+}
+.students_number h3:hover{
+  font-size: 32px;
+  transition-duration: .3s;
+}
+.mentors_number{
+    padding: 4%;
+}
+.mentors_number h3{
+     font-size: 30px;
+     font-weight: 600;
+  color: #2e328f;
+}
+.mentors_number h5{
+  font-size: 18px;
+  color: rgb(58, 58, 58);
+}
+.mentors_number h3:hover{
+  font-size: 32px;
+  transition-duration: .3s;
+}
+.matarrieals_number{
+    padding: 4%;
+}
+.matarrieals_number h3{
+     font-size: 30px;
+     font-weight: 600;
+  color: #2e328f;
+}
+.matarrieals_number h5{
+    font-size: 18px;
+  color: rgb(58, 58, 58);
+}
+.matarrieals_number h3:hover{
+  font-size: 32px;
+  transition-duration: .3s;
+}
+.text{
+margin-top: 5%;
+margin-left: 14%;
+margin-bottom: 10%;
+}
+.text h1{
+  font-size: 28px;
+  font-weight: 600;
+  color: #303064;
+  margin-bottom: 15px;
+}
+.text h5{
+  font-size: 15px;
+  margin-left: 14%;
+}
+.home_courses{
+  display: flex;
+  gap: 3%;
+  margin-left: 4%;
+}
+.school{
+  height: 200px;
+  width: 30%;
+  background: linear-gradient(to right, #192a56, #00a8ff);
+  border-radius: 20px;
+}
+.academic{
+  height: 200px;
+  width: 30%;
+  background: radial-gradient(circle, #192a56, #00a8ff);
+    border-radius: 20px;
+}
+.admission{
+  height: 200px;
+  width: 30%;
+  background: linear-gradient(to left, #192a56, #00a8ff);
+    border-radius: 20px;
+}

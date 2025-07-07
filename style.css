@@ -7,6 +7,26 @@
   font-weight: 400;
   font-style: normal;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f5f6fa;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #192a56;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #273c75;
+}
+
 /* Top bar style */
 .topbar {
   display: flex;
@@ -847,4 +867,91 @@ color: floralwhite
   font-weight: bold;
   font-size: 14px;
   color: #192a56; 
+}
+
+                                                  /* log in page */
+
+.log_in_bg{
+  position: relative;
+}                                                 
+.log_in_bg img{
+  margin-top: -20%;
+  width: 100%;
+  height: auto;
+  position: relative;
+}       
+
+.log_in_form{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 60%;
+  background-color: #297fb963; 
+  border-radius: 10px;
+  padding: 5%;
+}
+.log_in_form h1{
+  text-align: center;
+  font-weight: bold;
+  color: #192a56;
+  margin-bottom: 1%;
+}
+.log_in_form p{
+  text-align: center;
+  font-size: 14px;
+  color: #616161;
+  margin-bottom: 4%;
+}
+form{
+margin-left: 15%;
+}
+.log_in_form label{
+  font-size: 15px;
+}
+.required_star {
+  color: red;
+}
+
+.form_container {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.country_code {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.phone_input {
+  flex-grow: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  margin-left: 4%;
+  margin-top: 20px;
+  padding: 15px 30%;
+  background-color: #297fb9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #195a8b;
 }

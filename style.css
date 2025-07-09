@@ -890,7 +890,7 @@ color: floralwhite
   position: relative;
 }                                                 
 .log_in_bg img{
-  margin-top: -15%;
+  margin-top: -10%;
   width: 100%;
   height: auto;
   position: relative;
@@ -955,7 +955,7 @@ margin-left: 15%;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-button {
+.log_in {
   margin-left: 4%;
   margin-top: 20px;
   padding: 15px 30%;
@@ -967,7 +967,87 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.log_in:hover {
   background-color: #195a8b;
 }
 
+/* shop page */
+.hero {
+  background: url('https://img.freepik.com/free-photo/flat-lay-back-school-concept-with-copy-space_23-2148559675.jpg?semt=ais_hybrid&w=740') center/cover;
+  color: rgb(0, 0, 0);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hero p {
+  margin: 10px 0 20px;
+  font-size: 26px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #297fb9;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn:hover{
+    padding: 15px 30px;
+    font-size: 20px;
+    transition-duration: .5s;
+}
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+}
+
+.product-card p {
+  font-weight: bold;
+}
+
+.product-card button{
+  margin-top: 10px;
+  padding: 8px 16px;
+ background:#297fb9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product-card button:hover{
+  background-color: #195a8b;
+}

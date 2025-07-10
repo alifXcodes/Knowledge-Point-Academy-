@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KPA - Log in</title><link rel="shortcut icon" href="File/logo bg removed.png" type="image/x-icon">
+    <title>Courses</title><link rel="shortcut icon" href="File/logo bg removed.png" type="image/x-icon">
     <!-- CSS link -->
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="responsive.css">
+     <link rel="stylesheet" href="courses_viewer_page.js">
      <!-- CDN link -->
       <!-- Font link -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,35 +57,60 @@
              
         </div>
     </header>
-<section>
-    <div class="log_in_bg">
-        <img src="File/log in bg.png" alt="">
-        <div class="log_in_form">
-            <h1>মোবাইল নম্বর দিয়ে এগিয়ে যান</h1>
-            <p>আপনার যে নম্বরে One Time Password (OTP) পাঠানো হবে অথবা যে নম্বর দিয়ে আপনি ইতোমধ্যে রেজিস্ট্রেশন করেছেন</p>
-            <form action="#" method="get">
-        <label for="phone_input">মোবাইল নম্বর <span class="required_star">*</span></label>       
-  <div class="form_container">
-   
-    <select class="country_code">
-      <option value="+880" data-flag="🇧🇩">🇧🇩 +880</option>
-      <option value="+91" data-flag="🇮🇳">🇮🇳 +91</option>
-      <option value="+1" data-flag="🇺🇸">🇺🇸 +1</option>
-      <option value="+44" data-flag="🇬🇧">🇬🇧 +44</option>
-    </select>
-    
-    <input type="text" placeholder="Phone Number" class="phone_input" required
-           pattern="[0-9]{11}"
-           maxlength="11"
-           title="Please enter exactly 11 digits" >
+    <section>
+        <div class="courses_viewer_page">
+            
+  <div class="viewer-container">
+    <h1>Available Courses</h1>
+    <div id="courseList" class="courses-grid"></div>
   </div>
-  <button class="log_in" type="submit">এগিয়ে যান</button>
-</form>
-        </div>
-        
-    </div>
+     <section class="featured-course">
+  <img src="https://img.freepik.com/premium-vector/bangla-typography-lettering-design-school-admission-going-offering-banner-poster-template_375539-221.jpg" alt="#">
+  <div class="featured-content">
+    <h2>বাংলা ১১-১২</h2>
+    <p>বাংলায় ১০০ তে ১০০</p>
+    <a href="#">শুরু কর</a>
+  </div>
 </section>
-<!-- footer section -->
+
+
+  <script src="viewer-script.js"></script>
+        </div>
+    </section>
+
+    <section class="course-grid">
+  <h2>Popular Courses</h2>
+  <div class="courses">
+    <div class="course-card">
+      <img src="https://static.showit.co/400/Ixuba1_wS76D2RqLO4rvwQ/84866/course_bundle.jpg" alt="#">
+      <div class="card-content">
+        <h3>বাংলা</h3>
+        <p>বাংলার ভয় হবে এবার জয়</p>
+        <a href="#">Enroll</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="https://img.freepik.com/free-psd/english-language-courses-vertical-poster-template-retro-style_23-2149432105.jpg" alt="#">
+      <div class="card-content">
+        <h3>English</h3>
+        <p>Learn with Nayeem</p>
+        <a href="#">Enroll</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <img src="https://media.slidesgo.com/storage/3220853/responsive-images/0-chemistry-lesson___media_library_original_459_258.jpg" alt="#">
+      <div class="card-content">
+        <h3>রসায়ন</h3>
+        <p>চল রসায়ন শিখি রস নিয়ে</p>
+        <a href="#">Enroll</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- footer section -->
 <footer>
     <div class="logo_footer">
         <img src="File/11111111.png" alt="">

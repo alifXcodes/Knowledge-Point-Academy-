@@ -1,3 +1,8 @@
+/* 
+1. *
+2.
+ */
+
 
 * {
   margin: 0;
@@ -1050,4 +1055,258 @@ margin-left: 15%;
 }
 .product-card button:hover{
   background-color: #195a8b;
+}
+
+
+/* Courses - admin panal */
+.admin_courses_page{
+  background-color: #f5f6fa;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.admin-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.admin-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2e3192;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #2e3192;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #192a56;
+}
+
+#successMsg {
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+/* Courses viewre page */
+.courses_viewer_page {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.viewer-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  height: 200px;
+}
+
+.viewer-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2e3192;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.course-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+.featured-course {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  background-color: #dfe4ea;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 40px;
+}
+
+.featured-course img {
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.featured-content {
+  flex: 1;
+}
+
+.featured-content h2 {
+  font-size: 28px;
+  color: #192a56;
+  margin-bottom: 10px;
+}
+
+.featured-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.featured-content a {
+  padding: 12px 24px;
+  background-color: #ec1e25;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.featured-content a:hover {
+  background-color: #192a56;
+}
+
+.course-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.course-content {
+  padding: 20px;
+}
+
+.course-content h3 {
+  margin-top: 0;
+  color: #192a56;
+}
+
+.course-content p {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0 20px;
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.course-content a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ec1e25;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.course-content a:hover {
+  background-color: #2e3192;
+}
+
+.course-grid {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.course-grid h2 {
+  font-size: 32px;
+  color: #192a56;
+  margin-bottom: 30px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.course-card {
+  background: white;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  color: #273c75;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.card-content a {
+  text-decoration: none;
+  background-color: #192a56;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.card-content a:hover {
+  background-color: #ec1e25;
 }

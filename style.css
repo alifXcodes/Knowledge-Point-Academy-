@@ -1,6 +1,16 @@
 /* 
 1. *
-2.
+2. scrollbar
+3. Top bar style
+4. index
+5. footer section
+6. About us page
+7. log in page
+8. shop page
+9. Courses - admin panal
+10. Courses viewre page
+11. 
+ 
  */
 
 
@@ -976,7 +986,8 @@ margin-left: 15%;
   background-color: #195a8b;
 }
 
-/* shop page */
+                                              /* shop page */
+
 .hero {
   background: url('https://img.freepik.com/free-photo/flat-lay-back-school-concept-with-copy-space_23-2148559675.jpg?semt=ais_hybrid&w=740') center/cover;
   color: rgb(0, 0, 0);
@@ -1058,7 +1069,7 @@ margin-left: 15%;
 }
 
 
-/* Courses - admin panal */
+                                           /* Courses - admin panal */
 .admin_courses_page{
   background-color: #f5f6fa;
   font-family: 'Segoe UI', sans-serif;
@@ -1123,7 +1134,7 @@ button:hover {
 }
 
 
-/* Courses viewre page */
+                                             /* Courses viewre page */
 .courses_viewer_page {
   margin: 0;
   padding: 0;
